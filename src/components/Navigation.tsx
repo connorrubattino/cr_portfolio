@@ -22,9 +22,9 @@ export default function Navigation({}: Props) {
                 <Navbar.Collapse id='nav-collapse'>
                     <Nav className='me-auto'>
                             <>
-                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/gallery'>Gallery</Nav.Link>
-                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/about'>About</Nav.Link>
-                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/contact'>Contact</Nav.Link>
+                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/portfolio'>Portfolio</Nav.Link>
+                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/about'>About Me</Nav.Link>
+                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/resume'>Resume</Nav.Link>
                             </>
                         
                     </Nav>
