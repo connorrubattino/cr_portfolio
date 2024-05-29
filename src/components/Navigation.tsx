@@ -26,9 +26,9 @@ export default function Navigation({}: Props) {
                 <Navbar.Collapse id='nav-collapse'>
                     <Nav className='me-auto'>
                             <>
-                                <Nav.Link onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className='text-white navbar-link ms-5' style={{ fontWeight: 'bold' }} as={Link} to='/portfolio'>Portfolio</Nav.Link>
-                                <Nav.Link onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className='text-white navbar-link ms-5' style={{ fontWeight: 'bold' }} as={Link} to='/about'>About Me</Nav.Link>
-                                <Nav.Link onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className='text-white navbar-link ms-5' style={{ fontWeight: 'bold' }} as={Link} to='/resume'>Resume</Nav.Link>
+                                <Nav.Link onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className='text-white navbar-link ms-5 outline' style={{ fontWeight: 'bold' }} as={Link} to='/portfolio'>Portfolio</Nav.Link>
+                                <Nav.Link onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className='text-white navbar-link ms-5 outline' style={{ fontWeight: 'bold' }} as={Link} to='/about'>About Me</Nav.Link>
+                                <Nav.Link onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className='text-white navbar-link ms-5 outline' style={{ fontWeight: 'bold' }} as={Link} to='/resume'>Resume</Nav.Link>
                             </>
                         
                     </Nav>

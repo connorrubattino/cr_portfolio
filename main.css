@@ -20,3 +20,10 @@ body {
 .card.bg-white-transparent {
   background-color: rgba(255, 255, 255, 0);
 }
+
+.outline {
+  text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px  1px 0 #000,
+                1px  1px 0 #000;
+}
