@@ -1,6 +1,6 @@
 body {
   position: relative; /* Ensure positioning context */
-  background-image: url('/src/assets/images/518b84c6a380351b1aeec9449cd44c2bf156bee9-1456x816.webp');
+  background-image: url('/src/assets/images/bg-image-24.jpg');
   /* background-color: rgba(255, 255, 255, 0.5); */
   background-size: cover;
   /* background-position: center top; */
@@ -18,5 +18,5 @@ body {
 }
 
 .card.bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0);
 }
