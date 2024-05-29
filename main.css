@@ -16,3 +16,7 @@ body {
 .hovered .navbar-link:hover {
   transform: scale(1.3); /* Make the Navbar items 10% bigger on hover */
 }
+
+.card.bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.85);
+}
