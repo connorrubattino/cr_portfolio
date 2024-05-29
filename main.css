@@ -8,3 +8,11 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
+.navbar-link {
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth size change */
+}
+
+.hovered .navbar-link:hover {
+  transform: scale(1.3); /* Make the Navbar items 10% bigger on hover */
+}
