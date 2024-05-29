@@ -7,7 +7,7 @@ type Props = {}
 
 export default function Navigation({}: Props) {
   return (
-    <Navbar bg='dark' expand='lg'>
+    <Navbar expand='lg' style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
             <Container fluid>
                 <Navbar.Brand as={Link} to='/'>
                     <img
@@ -22,9 +22,9 @@ export default function Navigation({}: Props) {
                 <Navbar.Collapse id='nav-collapse'>
                     <Nav className='me-auto'>
                             <>
-                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/portfolio'>Portfolio</Nav.Link>
-                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/about'>About Me</Nav.Link>
-                                <Nav.Link className='text-white navbar-link ms-3' as={Link} to='/resume'>Resume</Nav.Link>
+                                <Nav.Link className='text-white navbar-link ms-3' style={{ fontWeight: 'bold' }} as={Link} to='/portfolio'>Portfolio</Nav.Link>
+                                <Nav.Link className='text-white navbar-link ms-3' style={{ fontWeight: 'bold' }} as={Link} to='/about'>About Me</Nav.Link>
+                                <Nav.Link className='text-white navbar-link ms-3' style={{ fontWeight: 'bold' }} as={Link} to='/resume'>Resume</Nav.Link>
                             </>
                         
                     </Nav>

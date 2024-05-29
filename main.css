@@ -1,0 +1,10 @@
+body {
+  position: relative; /* Ensure positioning context */
+  background-image: url('/src/assets/images/518b84c6a380351b1aeec9449cd44c2bf156bee9-1456x816.webp');
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-size: cover;
+  /* background-position: center top; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
