@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+
 body {
   position: relative; /* Ensure positioning context */
   background-image: url('/src/assets/images/bg-image-24.jpg');
@@ -26,4 +29,8 @@ body {
                 1px -1px 0 #000,
                -1px  1px 0 #000,
                 1px  1px 0 #000;
+}
+
+.home-text {
+  font-family: 'Dosis', sans-serif;
 }
