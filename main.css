@@ -10,6 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  padding-bottom: 45px;
 }
 
 .navbar-link {
@@ -22,6 +23,10 @@ body {
 
 .card.bg-white-transparent {
   background-color: rgba(255, 255, 255, 0);
+}
+
+.card.bg-white-trans {
+  background-color: rgba(255, 255, 255, 0.90);
 }
 
 .outline {
