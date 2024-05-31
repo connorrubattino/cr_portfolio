@@ -12,7 +12,7 @@ export default function Resume({ }: Props) {
             <Container className='custom-container'>
                 <Card style={{ width: '100%' }} className="mt-5 card bg-white-trans">
                     <Card.Body>
-                        <Card.Title style={{ color: 'black' }} className='text-center' as="h2">Company</Card.Title>
+                        <Card.Title style={{ color: 'black' }} className='text-center' as="h2">Coding Temple</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">years-years</Card.Subtitle>
                         <Card.Text>
                             bullet
@@ -27,7 +27,7 @@ export default function Resume({ }: Props) {
                 </Card>
                 <Card style={{ width: '100%' }} className="mt-5 card bg-white-trans">
                     <Card.Body>
-                        <Card.Title style={{ color: 'black' }} className='text-center' as="h2">Company</Card.Title>
+                        <Card.Title style={{ color: 'black' }} className='text-center' as="h2">Lattice</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">years-years</Card.Subtitle>
                         <Card.Text>
                             bullet                        
@@ -42,7 +42,7 @@ export default function Resume({ }: Props) {
                 </Card>
                 <Card style={{ width: '100%' }} className="mt-5 card bg-white-trans">
                     <Card.Body>
-                        <Card.Title style={{ color: 'black' }} className='text-center' as="h2">Company</Card.Title>
+                        <Card.Title style={{ color: 'black' }} className='text-center' as="h2">Salesforce</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">years-years</Card.Subtitle>
                         <Card.Text>
                             bullet                        
